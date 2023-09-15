@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+   
+    <title>Guess the Number</title>
+</head>
+<body>
+    
+    <div id="container">
+        <form id="form">
+            <h3>Guess the Number between <span>0 to 100</span></h3><br>
+            <input type="number" min="0" max="100" id="input" autocomplete="off"  placeholder="Enter a value" autofocus required><br>
+            <div class="btn">
+                <input type="submit" value="Submit" id="submit">
+                <button type="button" id="startgame">Start Game</button>
+            </div>
+            <br>
+            <div>
+                <p>
+                    <output id="output"></output>
+                </p>
+                <p>
+                    <output id="guessdisplay"></output>
+                </p>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
